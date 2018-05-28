@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FF</title>
+    <style>
+        html, body {min-height: 100%; padding: 0; margin: 0;}
+        article {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            width: 5rem;
+            height: 5rem;
+            animation: fadein 4s;
+        }
+        @keyframes fadein {
+            0% { opacity: 0; }
+            30% { opacity: 0; }
+            100%   { opacity: 1; }
+        }
+        body {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-image: url("bg.jpg");
+        }
+        @media only screen and (orientation: portrait) {
+            body {background-image: url("bg90.jpg");}
+        }
+
+        svg {width: 100%; height: auto;}
+        /* footer {height: 5rem; position: absolute; bottom: 0; width: 100%; background: red;} */
+    </style>
+</head>
+<body>
+    <article>
+        <svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg">
+            <g transform="scale(0.35)">
+                <g transform="translate(-284.13557,-419.6594)">
+                    <path d="m 381.667,493.079  49.189, 49.189 -6.298, 6.298 -41.806,-41.806 -28.015, 28.016  37.136, 37.136 -6.298, 6.298 -37.136,-37.136 -36.919, 36.919 -7.384,-7.384  77.531,-77.53 z" />
+                    <path d="m 423.087,582.721 -49.19 ,-49.19   6.298,-6.298  41.806, 41.806  28.015,-28.015 -37.137,-37.137  6.298,-6.298  37.137, 37.137  36.919,-36.919  7.384, 7.384 -77.530, 77.53 z" />
+                </g>
+            </g>
+        </svg>
+    </article>
+    <!-- <footer></footer> -->
+</body>
+</html>
