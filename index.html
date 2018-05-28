@@ -26,13 +26,25 @@
             background-repeat: no-repeat;
             background-position: center center;
             background-image: url("bg.jpg");
+            font: 100%/1.5 sans-serif;
+            font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+            font-weight: 300;
         }
         @media only screen and (orientation: portrait) {
             body {background-image: url("bg90.jpg");}
         }
 
         svg {width: 100%; height: auto;}
-        /* footer {height: 5rem; position: absolute; bottom: 0; width: 100%; background: red;} */
+        footer {height: 3rem; position: absolute; bottom: 0; width: 100%; text-align: right; text-shadow: 0 0 1px black;}
+        a {
+            text-decoration: none;
+            color: #ccc;
+            padding: 0 2rem;
+        }
+
+        a:active, a:hover {
+            color: #ccc;
+        }
     </style>
 </head>
 <body>
@@ -46,6 +58,8 @@
             </g>
         </svg>
     </article>
-    <!-- <footer></footer> -->
+    <footer>
+        <a href="https://firmen.wko.at/Web/DetailsKontakt.aspx?FirmaID=eda1d2b2-659e-4b07-ae52-39d89ef3f00a">Impressum</a>
+    </footer>
 </body>
 </html>
