@@ -1,0 +1,14 @@
+{"dir" : "ltr",
+    "lang" : "de",
+    "name" : "FF",
+    "display" : "browser",
+    "short_name" : "FF",
+    "theme_color" : "transparent",
+    "description" : "FF",
+    "orientation" : "any",
+    "background_color" : "transparent",
+    "related_applications" : "",
+    "prefer_related_applications" : "false",
+    "generated" : "undefined",
+    "icons" : [
+    ]}
