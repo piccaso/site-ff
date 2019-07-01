@@ -12,8 +12,12 @@
     "prefer_related_applications": false,
     "generated": "undefined",
     "icons": [{
-        "src": "logo.png",
+        "src": "logo236.png",
         "sizes": "236x236",
+        "type": "image/png"
+    },{
+        "src": "logo512.png",
+        "sizes": "512x512",
         "type": "image/png"
     }]
 }
