@@ -1,13 +1,19 @@
-{"dir" : "ltr",
-    "lang" : "de",
-    "name" : "FF",
-    "display" : "browser",
-    "short_name" : "FF",
-    "theme_color" : "#000",
-    "description" : "FF",
-    "orientation" : "any",
-    "background_color" : "transparent",
-    "related_applications" : [],
-    "prefer_related_applications" : false,
-    "generated" : "undefined",
-    "icons" : []}
+{
+    "dir": "ltr",
+    "lang": "de",
+    "name": "FF",
+    "display": "minimal-ui",
+    "short_name": "FF",
+    "theme_color": "#000",
+    "description": "FF",
+    "orientation": "any",
+    "background_color": "#000",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "generated": "undefined",
+    "icons": [{
+        "src": "logo.png",
+        "sizes": "236x236",
+        "type": "image/png"
+    }]
+}
